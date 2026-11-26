@@ -1,0 +1,57 @@
+{
+    __meta__ = {
+        version = "1.0"
+    },
+    ["android|arm64-v8a"] = {
+        ["cmake#f56260b5"] = {
+            repo = {
+                branch = "master",
+                commit = "d3c2d28d747b3325e2b0df9f0ee6b92a379c72dd",
+                url = "https://gitlab.com/tboox/xmake-repo.git"
+            },
+            version = "4.3.4"
+        },
+        ["entt v3.16.0#f56260b5"] = {
+            repo = {
+                branch = "master",
+                commit = "6c01fc535b9b12e235795c0d1d23be0ce3b3c72f",
+                url = "https://gitlab.com/tboox/xmake-repo.git"
+            },
+            version = "v3.16.0"
+        },
+        ["ninja#f56260b5"] = {
+            repo = {
+                branch = "master",
+                commit = "d3c2d28d747b3325e2b0df9f0ee6b92a379c72dd",
+                url = "https://gitlab.com/tboox/xmake-repo.git"
+            },
+            version = "v1.13.2"
+        }
+    },
+    ["windows|x64"] = {
+        ["cmake#f56260b5"] = {
+            repo = {
+                branch = "master",
+                commit = "3abfb00eecffc598dca57a4c4589d43274c5cc95",
+                url = "https://gitlab.com/tboox/xmake-repo.git"
+            },
+            version = "4.3.4"
+        },
+        ["entt#f56260b5"] = {
+            repo = {
+                branch = "master",
+                commit = "3abfb00eecffc598dca57a4c4589d43274c5cc95",
+                url = "https://gitlab.com/tboox/xmake-repo.git"
+            },
+            version = "v3.16.0"
+        },
+        ["ninja#f56260b5"] = {
+            repo = {
+                branch = "master",
+                commit = "3abfb00eecffc598dca57a4c4589d43274c5cc95",
+                url = "https://gitlab.com/tboox/xmake-repo.git"
+            },
+            version = "v1.13.2"
+        }
+    }
+}
